@@ -8,9 +8,15 @@ namespace Ho.GitPoc.ConsoleApp
 {
     public static class MathHelper
     {
-        public static bool IsOddOrEven(int myInteger)
+        public static bool IsEven(int myInteger)
         {
-            return true;
+            if (myInteger % 2 == 0)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
     }
 }
