@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ho.GitPoc.ConsoleApp\Ho.GitPoc.ConsoleApp.csproj" />
+  </ItemGroup>
+
 </Project>
