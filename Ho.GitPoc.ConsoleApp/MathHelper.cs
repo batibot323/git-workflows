@@ -10,6 +10,10 @@ namespace Ho.GitPoc.ConsoleApp
     {
         public static bool IsEven(int myInteger)
         {
+            if (myInteger % 2 == 0)
+            {
+                return true;
+            }
             return true;
         }
     }
