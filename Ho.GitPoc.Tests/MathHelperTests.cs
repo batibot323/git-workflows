@@ -9,13 +9,13 @@ namespace Ho.GitPoc.Tests
         [Fact]
         public void TestForLowEvenNumbers()
         {
-            Assert.True(MathHelper.IsOddOrEven(2));
+            Assert.True(MathHelper.IsEven(2));
         }
 
         [Fact]
         public void TestForLowOddNumbers()
         {
-            Assert.False(MathHelper.IsOddOrEven(1));
+            Assert.False(MathHelper.IsEven(1));
         }
 
         [Fact]
